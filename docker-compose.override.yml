@@ -9,7 +9,7 @@ services:
       - "./:/home/app/www/blog-server/"
     environment:
       # - DATABASE_URL=mysql2://mysql/nft_development
-      - RAILS_ENV=production
+      - RAILS_ENV=development
     ports:
       - 3000:3000
     restart: always

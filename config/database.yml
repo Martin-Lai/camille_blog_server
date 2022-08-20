@@ -17,7 +17,7 @@ default: &default
 development:
   <<: *default
   database: blog
-  host: rds.amazonaws.com
+  host: blog-server.cj1aomwmmron.ap-southeast-1.rds.amazonaws.com
   username: admin
   password: "kk112233"
 
