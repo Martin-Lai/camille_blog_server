@@ -7,6 +7,7 @@ gem 'puma'
 gem 'jbuilder'
 gem 'mysql2'
 gem 'delayed_job_active_record'
+gem 'rack-cors'
 
 group :development, :test do
   gem 'byebug', platform: :mri
