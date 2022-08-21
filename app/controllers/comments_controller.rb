@@ -3,7 +3,6 @@ class CommentsController < ApplicationController
   rescue_from StandardError, with: :handle_exception
 
   def index
-    p "index"
     if !params[:serial_number]
       render json: {message: "failure", error: "serial_number error"}, status: :bad_request
       return
