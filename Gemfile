@@ -7,14 +7,12 @@ gem 'puma'
 gem 'jbuilder'
 gem 'mysql2'
 gem 'delayed_job_active_record'
-gem 'rack-cors'
 
 group :development, :test do
   gem 'byebug', platform: :mri
   gem 'faker'
   gem 'pry'
   gem 'factory_bot_rails'
-  gem 'faker'
   gem "webmock"
 end
 
